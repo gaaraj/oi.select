@@ -1089,90 +1089,94 @@ angular.module('oi.select')
 angular.module('oi.select')
 
 .filter('oiSelectGroup', ['$sce', function($sce) {
-    return function(label) {
-        return $sce.trustAsHtml(label);
-    };
+  return function(label) {
+    return $sce.trustAsHtml(label);
+  };
 }])
 
 .filter('oiSelectCloseIcon', ['$sce', function($sce) {
-    return function(label) {
-        var closeIcon = '<span class="close select-search-list-item_selection-remove">×</span>';
+  return function(label) {
+    var closeIcon = '<span class="close select-search-list-item_selection-remove">×</span>';
 
-        return $sce.trustAsHtml(label + closeIcon);
-    };
+    return $sce.trustAsHtml(label + closeIcon);
+  };
 }])
 
 .filter('oiSelectHighlight', ['$sce', 'oiSelectEscape', function($sce, oiSelectEscape) {
-    return function(label, query) {
-        var html;
-
-        if (query.length > 0 || angular.isNumber(query)) {
-            label = label.toString();
-            query = oiSelectEscape(query);
-
-            html = label.replace(new RegExp(query, 'gi'), '<strong>$&</strong>');
-        } else {
-            html = label;
-        }
-
-        return $sce.trustAsHtml(html);
-    };
+  return function(label, query) {
+    var html = "";
+    if (typeof label == "string") {
+      if (query.length > 0 || angular.isNumber(query)) {
+        query = oiSelectEscape(query);
+        var regexstr = '(' + query.replace(new RegExp('[i|İ]', 'gi'), '[i|İ]') + ')';
+        html = label.replace(new RegExp(regexstr, 'gi'), '<strong>$&</strong>');
+      } else {
+        html = label;
+      }
+      return $sce.trustAsHtml(html);
+    }
+  };
 }])
 
 .filter('oiSelectAscSort', ['oiSelectEscape', function(oiSelectEscape) {
-    function ascSort(input, query, getLabel, options) {
-        var i, j, isFound, output, output1 = [], output2 = [], output3 = [], output4 = [];
+  function ascSort(input, query, getLabel, options) {
+    var i, j, isFound, output, output1 = [],
+      output2 = [],
+      output3 = [],
+      output4 = [];
 
-        if (query) {
-            query = oiSelectEscape(query).toLocaleLowerCase();
+    if (query) {
+      query = '(' + oiSelectEscape(query).replace(new RegExp('[i|İ]', 'gi'), '[i|İ]') + ')';
 
-            for (i = 0, isFound = false; i < input.length; i++) {
-                isFound = getLabel(input[i]).toLocaleLowerCase().match(new RegExp(query));
+      for (i = 0, isFound = false; i < input.length; i++) {
+        isFound = getLabel(input[i]).match(new RegExp(query, 'gi'));
 
-                if (!isFound && options && (options.length || options.fields)) {
-                    for (j = 0; j < options.length; j++) {
-                        if (isFound) break;
-                        isFound = String(input[i][options[j]]).toLocaleLowerCase().match(new RegExp(query));
-                    }
-                }
-
-                if (isFound) {
-                    output1.push(input[i]);
-                }
-            }
-            for (i = 0; i < output1.length; i++) {
-                if (getLabel(output1[i]).toLocaleLowerCase().match(new RegExp('^' + query))) {
-                    output2.push(output1[i]);
-                } else {
-                    output3.push(output1[i]);
-                }
-            }
-            output = output2.concat(output3);
-
-            if (options && (options === true || options.all)) {
-                inputLabel: for (i = 0; i < input.length; i++) {
-                    for (j = 0; j < output.length; j++) {
-                        if (input[i] === output[j]) {
-                            continue inputLabel;
-                        }
-                    }
-                    output4.push(input[i]);
-                }
-                output = output.concat(output4);
-            }
-        } else {
-            output = [].concat(input);
+        if (!isFound && options && (options.length || options.fields)) {
+          for (j = 0; j < options.length; j++) {
+            if (isFound) break;
+            isFound = String(input[i][options[j]]).match(new RegExp(query, 'gi'));
+          }
         }
 
-        return output;
+        if (isFound) {
+          output1.push(input[i]);
+        }
+      }
+      for (i = 0; i < output1.length; i++) {
+        if (getLabel(output1[i]).match(new RegExp('^' + query, 'gi'))) {
+          output2.push(output1[i]);
+        } else {
+          output3.push(output1[i]);
+        }
+      }
+      output = output2.concat(output3);
+      console.info(output);
+
+      if (options && (options === true || options.all)) {
+        inputLabel: for (i = 0; i < input.length; i++) {
+          for (j = 0; j < output.length; j++) {
+            if (input[i] === output[j]) {
+              continue inputLabel;
+            }
+          }
+          output4.push(input[i]);
+        }
+        output = output.concat(output4);
+      }
+    } else {
+      output = [].concat(input);
     }
 
-    return ascSort;
+    return output;
+  }
+
+  return ascSort;
 }])
 
 .filter('none', function() {
-    return function(input) {
-        return input;
-    };
+  return function(input) {
+    return input;
+  };
 });
+
 angular.module("oi.select").run(["$templateCache", function($templateCache) {$templateCache.put("src/template.html","<div class=select-search><ul class=select-search-list><li class=\"select-search-list-item select-search-list-item_selection\" ng-hide=listItemHide ng-repeat=\"item in output track by $index\" ng-class=\"{focused: backspaceFocus && $last}\" ng-click=removeItem($index) ng-bind-html=getSearchLabel(item)></li><li class=\"select-search-list-item select-search-list-item_input\" ng-class=\"{\'select-search-list-item_hide\': inputHide}\"><input autocomplete=off ng-model=query ng-keyup=keyUp($event) ng-keydown=keyDown($event)></li><li class=\"select-search-list-item select-search-list-item_loader\" ng-show=showLoader></li></ul></div><div class=select-dropdown ng-show=isOpen><ul ng-if=isOpen class=select-dropdown-optgroup ng-repeat=\"(group, options) in groups\"><div class=select-dropdown-optgroup-header ng-if=\"group && options.length\" ng-bind-html=\"getGroupLabel(group, options)\"></div><li class=select-dropdown-optgroup-option ng-init=\"isDisabled = getDisableWhen(option)\" ng-repeat=\"option in options\" ng-class=\"{\'active\': selectorPosition === groupPos[group] + $index, \'disabled\': isDisabled, \'ungroup\': !group}\" ng-click=\"isDisabled || addItem(option)\" ng-mouseenter=\"setSelection(groupPos[group] + $index)\" ng-bind-html=getDropdownLabel(option)></li></ul></div>");}]);

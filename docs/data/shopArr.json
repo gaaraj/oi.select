@@ -1,48 +1,3213 @@
-[
-    {
-        "id": 0,
-        "name": "sneakers",
-        "category": "shoes",
-        "disabled": true
-    },{
-        "id": 1,
-        "name": "shoes",
-        "category": "shoes"
-    },{
-        "id": 2,
-        "name": "slippers",
-        "category": "shoes"
-    },{
-        "id": 3,
-        "name": "boots",
-        "category": "shoes",
-        "disabled": true
-    },{
-        "id": 4,
-        "name": "shirt",
-        "category": "clothes",
-        "disabled": true
-    },{
-        "id": 5,
-        "name": "jacket",
-        "category": "clothes"
-    },{
-        "id": 6,
-        "name": "T-shirt",
-        "category": "clothes"
-    },{
-        "id": 7,
-        "name": "pants",
-        "category": "clothes"
-    },{
-        "id": 8,
-        "name": "jeans",
-        "category": "clothes"
-    },{
-        "id": 9,
-        "name": "cap"
-    },{
-        "id": 10,
-        "name": "belt"
-    }
-]
+[{
+  "id": "425",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "425",
+    "name": "Bahçelievler",
+    "sef": "bahcelievler",
+    "type": "place",
+    "slug": "bahcelievler",
+    "latitude": "41.008545",
+    "longitude": "28.824722"
+  },
+  "total": 14
+}, {
+  "id": "457",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "457",
+    "name": "Üsküdar",
+    "sef": "uskudar",
+    "type": "place",
+    "slug": "uskudar",
+    "latitude": "41.032236",
+    "longitude": "29.031938"
+  },
+  "total": 18
+}, {
+  "id": "456",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "456",
+    "name": "Ümraniye",
+    "sef": "umraniye",
+    "type": "place",
+    "slug": "umraniye",
+    "latitude": "41.033329",
+    "longitude": "29.101360"
+  },
+  "total": 21
+}, {
+  "id": "422",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "422",
+    "name": "Ataşehir",
+    "sef": "atasehir",
+    "type": "place",
+    "slug": "atasehir",
+    "latitude": "40.983333",
+    "longitude": "29.127778"
+  },
+  "total": 20
+}, {
+  "id": "435",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "435",
+    "name": "Çekmeköy",
+    "sef": "cekmekoy",
+    "type": "place",
+    "slug": "cekmekoy",
+    "latitude": "41.104235",
+    "longitude": "29.317727"
+  },
+  "total": 21
+}, {
+  "id": "442",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "442",
+    "name": "Kadıköy",
+    "sef": "kadikoy",
+    "type": "place",
+    "slug": "kadikoy",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 20
+}, {
+  "id": "426",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "426",
+    "name": "Bakırköy",
+    "sef": "bakirkoy",
+    "type": "place",
+    "slug": "bakirkoy",
+    "latitude": "40.983198",
+    "longitude": "28.853608"
+  },
+  "total": 7
+}, {
+  "id": "427",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "427",
+    "name": "Başakşehir",
+    "sef": "basaksehir",
+    "type": "place",
+    "slug": "basaksehir",
+    "latitude": "41.083333",
+    "longitude": "28.816667"
+  },
+  "total": 5
+}, {
+  "id": "433",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "433",
+    "name": "Büyükçekmece",
+    "sef": "buyukcekmece",
+    "type": "place",
+    "slug": "buyukcekmece",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 4
+}, {
+  "id": "436",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "436",
+    "name": "Esenler",
+    "sef": "esenler",
+    "type": "place",
+    "slug": "esenler",
+    "latitude": "41.079413",
+    "longitude": "28.853855"
+  },
+  "total": 14
+}, {
+  "id": "424",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "424",
+    "name": "Bağcılar",
+    "sef": "bagcilar",
+    "type": "place",
+    "slug": "bagcilar",
+    "latitude": "41.045647",
+    "longitude": "28.824722"
+  },
+  "total": 11
+}, {
+  "id": "423",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "423",
+    "name": "Avcılar",
+    "sef": "avcilar",
+    "type": "place",
+    "slug": "avcilar",
+    "latitude": "41.015348",
+    "longitude": "28.731462"
+  },
+  "total": 4
+}, {
+  "id": "428",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "428",
+    "name": "Bayrampaşa",
+    "sef": "bayrampasa",
+    "type": "place",
+    "slug": "bayrampasa",
+    "latitude": "41.048150",
+    "longitude": "28.900455"
+  },
+  "total": 4
+}, {
+  "id": "440",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "440",
+    "name": "Gaziosmanpaşa",
+    "sef": "gaziosmanpasa",
+    "type": "place",
+    "slug": "gaziosmanpasa",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 4
+}, {
+  "id": "452",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "452",
+    "name": "Sultangazi",
+    "sef": "sultangazi",
+    "type": "place",
+    "slug": "sultangazi",
+    "latitude": "41.125579",
+    "longitude": "28.871331"
+  },
+  "total": 4
+}, {
+  "id": "458",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "458",
+    "name": "Zeytinburnu",
+    "sef": "zeytinburnu",
+    "type": "place",
+    "slug": "zeytinburnu",
+    "latitude": "40.990635",
+    "longitude": "28.896140"
+  },
+  "total": 10
+}, {
+  "id": "431",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "431",
+    "name": "Beylikdüzü",
+    "sef": "beylikduzu",
+    "type": "place",
+    "slug": "beylikduzu",
+    "latitude": "40.991038",
+    "longitude": "28.649814"
+  },
+  "total": 4
+}, {
+  "id": "437",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "437",
+    "name": "Esenyurt",
+    "sef": "esenyurt",
+    "type": "place",
+    "slug": "esenyurt",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 4
+}, {
+  "id": "430",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "430",
+    "name": "Beykoz",
+    "sef": "beykoz",
+    "type": "place",
+    "slug": "beykoz",
+    "latitude": "41.132719",
+    "longitude": "29.105690"
+  },
+  "total": 13
+}, {
+  "id": "451",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "451",
+    "name": "Sultanbeyli",
+    "sef": "sultanbeyli",
+    "type": "place",
+    "slug": "sultanbeyli",
+    "latitude": "40.968423",
+    "longitude": "29.262008"
+  },
+  "total": 5
+}, {
+  "id": "450",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "450",
+    "name": "Silivri",
+    "sef": "silivri",
+    "type": "place",
+    "slug": "silivri",
+    "latitude": "41.073678",
+    "longitude": "28.247868"
+  },
+  "total": 4
+}, {
+  "id": "453",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "453",
+    "name": "Şile",
+    "sef": "sile",
+    "type": "place",
+    "slug": "sile",
+    "latitude": "41.174903",
+    "longitude": "29.609588"
+  },
+  "total": 3
+}, {
+  "id": "444",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "444",
+    "name": "Kartal",
+    "sef": "kartal",
+    "type": "place",
+    "slug": "kartal",
+    "latitude": "40.899651",
+    "longitude": "29.193649"
+  },
+  "total": 13
+}, {
+  "id": "447",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "447",
+    "name": "Pendik",
+    "sef": "pendik",
+    "type": "place",
+    "slug": "pendik",
+    "latitude": "40.879326",
+    "longitude": "29.258135"
+  },
+  "total": 8
+}, {
+  "id": "443",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "443",
+    "name": "Kağıthane",
+    "sef": "kagithane",
+    "type": "place",
+    "slug": "kagithane",
+    "latitude": "41.081403",
+    "longitude": "28.981973"
+  },
+  "total": 13
+}, {
+  "id": "439",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "439",
+    "name": "Fatih",
+    "sef": "fatih",
+    "type": "place",
+    "slug": "fatih",
+    "latitude": "41.020169",
+    "longitude": "28.933864"
+  },
+  "total": 8
+}, {
+  "id": "438",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "438",
+    "name": "Eyüp",
+    "sef": "eyup",
+    "type": "place",
+    "slug": "eyup",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 6
+}, {
+  "id": "448",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "448",
+    "name": "Sancaktepe",
+    "sef": "sancaktepe",
+    "type": "place",
+    "slug": "sancaktepe",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 15
+}, {
+  "id": "449",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "449",
+    "name": "Sarıyer",
+    "sef": "sariyer",
+    "type": "place",
+    "slug": "sariyer",
+    "latitude": "41.166328",
+    "longitude": "29.049950"
+  },
+  "total": 6
+}, {
+  "id": "454",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "454",
+    "name": "Şişli",
+    "sef": "sisli",
+    "type": "place",
+    "slug": "sisli",
+    "latitude": "41.124309",
+    "longitude": "29.011076"
+  },
+  "total": 16
+}, {
+  "id": "432",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "432",
+    "name": "Beyoğlu",
+    "sef": "beyoglu",
+    "type": "place",
+    "slug": "beyoglu",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 6
+}, {
+  "id": "429",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "429",
+    "name": "Beşiktaş",
+    "sef": "besiktas",
+    "type": "place",
+    "slug": "besiktas",
+    "latitude": "41.044000",
+    "longitude": "29.002000"
+  },
+  "total": 16
+}, {
+  "id": "446",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "446",
+    "name": "Maltepe",
+    "sef": "maltepe",
+    "type": "place",
+    "slug": "maltepe",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 15
+}, {
+  "id": "999",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "999",
+    "name": "İstanbul Atatürk Havalimanı",
+    "sef": "istanbul-ataturk-havalimani",
+    "type": "airport",
+    "slug": "istanbul+ataturk+havalimani",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 10
+}, {
+  "id": "1000",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "1000",
+    "name": "İstanbul Sabiha Gökçen Havalimanı",
+    "sef": "istanbul-sabiha-gokcen-havalimani",
+    "type": "airport",
+    "slug": "istanbul+sabiha+gokcen+havalimani",
+    "latitude": "40.905371",
+    "longitude": "29.316860"
+  },
+  "total": 20
+}, {
+  "id": "455",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "455",
+    "name": "Tuzla",
+    "sef": "tuzla",
+    "type": "place",
+    "slug": "tuzla",
+    "latitude": "40.898231",
+    "longitude": "29.359878"
+  },
+  "total": 2
+}, {
+  "id": "420",
+  "city": {
+    "id": "34",
+    "name": "İstanbul",
+    "sef": "istanbul",
+    "image": "istanbul",
+    "order": "0",
+    "slug": "istanbul",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/istanbul.jpg"
+  },
+  "district": {
+    "id": "420",
+    "name": "Adalar",
+    "sef": "adalar",
+    "type": "place",
+    "slug": "adalar",
+    "latitude": "40.874655",
+    "longitude": "29.129564"
+  },
+  "total": 1
+}, {
+  "id": "2",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "2",
+    "name": "Ceyhan",
+    "sef": "ceyhan",
+    "type": "place",
+    "slug": "ceyhan",
+    "latitude": "37.028765",
+    "longitude": "35.812431"
+  },
+  "total": 31
+}, {
+  "id": "15",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "15",
+    "name": "Yüreğir",
+    "sef": "yuregir",
+    "type": "place",
+    "slug": "yuregir",
+    "latitude": "36.991419",
+    "longitude": "35.330829"
+  },
+  "total": 31
+}, {
+  "id": "3",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "3",
+    "name": "Çukurova",
+    "sef": "cukurova",
+    "type": "place",
+    "slug": "cukurova",
+    "latitude": "36.991419",
+    "longitude": "35.330829"
+  },
+  "total": 31
+}, {
+  "id": "12",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "12",
+    "name": "Seyhan",
+    "sef": "seyhan",
+    "type": "place",
+    "slug": "seyhan",
+    "latitude": "36.991419",
+    "longitude": "35.330829"
+  },
+  "total": 31
+}, {
+  "id": "9",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "9",
+    "name": "Pozantı",
+    "sef": "pozanti",
+    "type": "place",
+    "slug": "pozanti",
+    "latitude": "37.425584",
+    "longitude": "34.873613"
+  },
+  "total": 31
+}, {
+  "id": "8",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "8",
+    "name": "Kozan",
+    "sef": "kozan",
+    "type": "place",
+    "slug": "kozan",
+    "latitude": "37.452122",
+    "longitude": "35.819273"
+  },
+  "total": 31
+}, {
+  "id": "10",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "10",
+    "name": "Saimbeyli",
+    "sef": "saimbeyli",
+    "type": "place",
+    "slug": "saimbeyli",
+    "latitude": "37.986090",
+    "longitude": "36.089587"
+  },
+  "total": 31
+}, {
+  "id": "7",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "7",
+    "name": "Karataş",
+    "sef": "karatas",
+    "type": "place",
+    "slug": "karatas",
+    "latitude": "36.566429",
+    "longitude": "35.383986"
+  },
+  "total": 31
+}, {
+  "id": "14",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "14",
+    "name": "Yumurtalık",
+    "sef": "yumurtalik",
+    "type": "place",
+    "slug": "yumurtalik",
+    "latitude": "36.768649",
+    "longitude": "35.788214"
+  },
+  "total": 31
+}, {
+  "id": "407",
+  "city": {
+    "id": "33",
+    "name": "Mersin",
+    "sef": "mersin",
+    "image": "mersin",
+    "order": "0",
+    "slug": "mersin",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mersin.jpg"
+  },
+  "district": {
+    "id": "407",
+    "name": "Akdeniz",
+    "sef": "akdeniz",
+    "type": "place",
+    "slug": "akdeniz",
+    "latitude": "36.812104",
+    "longitude": "34.641481"
+  },
+  "total": 15
+}, {
+  "id": "419",
+  "city": {
+    "id": "33",
+    "name": "Mersin",
+    "sef": "mersin",
+    "image": "mersin",
+    "order": "0",
+    "slug": "mersin",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mersin.jpg"
+  },
+  "district": {
+    "id": "419",
+    "name": "Yenişehir",
+    "sef": "yenisehir",
+    "type": "place",
+    "slug": "yenisehir",
+    "latitude": "36.812104",
+    "longitude": "34.641481"
+  },
+  "total": 15
+}, {
+  "id": "417",
+  "city": {
+    "id": "33",
+    "name": "Mersin",
+    "sef": "mersin",
+    "image": "mersin",
+    "order": "0",
+    "slug": "mersin",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mersin.jpg"
+  },
+  "district": {
+    "id": "417",
+    "name": "Tarsus",
+    "sef": "tarsus",
+    "type": "place",
+    "slug": "tarsus",
+    "latitude": "36.916561",
+    "longitude": "34.895210"
+  },
+  "total": 15
+}, {
+  "id": "418",
+  "city": {
+    "id": "33",
+    "name": "Mersin",
+    "sef": "mersin",
+    "image": "mersin",
+    "order": "0",
+    "slug": "mersin",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mersin.jpg"
+  },
+  "district": {
+    "id": "418",
+    "name": "Toroslar",
+    "sef": "toroslar",
+    "type": "place",
+    "slug": "toroslar",
+    "latitude": "36.812104",
+    "longitude": "34.641481"
+  },
+  "total": 15
+}, {
+  "id": "412",
+  "city": {
+    "id": "33",
+    "name": "Mersin",
+    "sef": "mersin",
+    "image": "mersin",
+    "order": "0",
+    "slug": "mersin",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mersin.jpg"
+  },
+  "district": {
+    "id": "412",
+    "name": "Erdemli",
+    "sef": "erdemli",
+    "type": "place",
+    "slug": "erdemli",
+    "latitude": "36.605819",
+    "longitude": "34.310167"
+  },
+  "total": 15
+}, {
+  "id": "548",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "548",
+    "name": "Başiskele",
+    "sef": "basiskele",
+    "type": "place",
+    "slug": "basiskele",
+    "latitude": "40.629837",
+    "longitude": "29.950926"
+  },
+  "total": 5
+}, {
+  "id": "559",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "559",
+    "name": "Körfez",
+    "sef": "korfez",
+    "type": "place",
+    "slug": "korfez",
+    "latitude": "40.776382",
+    "longitude": "29.737718"
+  },
+  "total": 5
+}, {
+  "id": "551",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "551",
+    "name": "Derince",
+    "sef": "derince",
+    "type": "place",
+    "slug": "derince",
+    "latitude": "40.756189",
+    "longitude": "29.830918"
+  },
+  "total": 5
+}, {
+  "id": "553",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "553",
+    "name": "Gebze",
+    "sef": "gebze",
+    "type": "place",
+    "slug": "gebze",
+    "latitude": "40.802516",
+    "longitude": "29.439794"
+  },
+  "total": 2
+}, {
+  "id": "719",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "719",
+    "name": "Adapazarı",
+    "sef": "adapazari",
+    "type": "place",
+    "slug": "adapazari",
+    "latitude": "40.773074",
+    "longitude": "30.394817"
+  },
+  "total": 4
+}, {
+  "id": "722",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "722",
+    "name": "Erenler",
+    "sef": "erenler",
+    "type": "place",
+    "slug": "erenler",
+    "latitude": "40.751039",
+    "longitude": "30.414263"
+  },
+  "total": 4
+}, {
+  "id": "194",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "194",
+    "name": "İnegöl",
+    "sef": "inegol",
+    "type": "place",
+    "slug": "inegol",
+    "latitude": "40.080082",
+    "longitude": "29.509697"
+  },
+  "total": 172
+}, {
+  "id": "191",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "191",
+    "name": "Gemlik",
+    "sef": "gemlik",
+    "type": "place",
+    "slug": "gemlik",
+    "latitude": "40.431820",
+    "longitude": "29.155416"
+  },
+  "total": 172
+}, {
+  "id": "203",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "203",
+    "name": "Orhangazi",
+    "sef": "orhangazi",
+    "type": "place",
+    "slug": "orhangazi",
+    "latitude": "40.490080",
+    "longitude": "29.308806"
+  },
+  "total": 172
+}, {
+  "id": "196",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "196",
+    "name": "Karacabey",
+    "sef": "karacabey",
+    "type": "place",
+    "slug": "karacabey",
+    "latitude": "40.216037",
+    "longitude": "28.359000"
+  },
+  "total": 172
+}, {
+  "id": "200",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "200",
+    "name": "Mustafakemalpaşa",
+    "sef": "mustafakemalpasa",
+    "type": "place",
+    "slug": "mustafakemalpasa",
+    "latitude": "40.039441",
+    "longitude": "28.405177"
+  },
+  "total": 172
+}, {
+  "id": "467",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "467",
+    "name": "Çeşme",
+    "sef": "cesme",
+    "type": "place",
+    "slug": "cesme",
+    "latitude": "38.324311",
+    "longitude": "26.303215"
+  },
+  "total": 35
+}, {
+  "id": "663",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "663",
+    "name": "Milas",
+    "sef": "milas",
+    "type": "place",
+    "slug": "milas",
+    "latitude": "37.311638",
+    "longitude": "27.780795"
+  },
+  "total": 9
+}, {
+  "id": "655",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "655",
+    "name": "Bodrum",
+    "sef": "bodrum",
+    "type": "place",
+    "slug": "bodrum",
+    "latitude": "37.034407",
+    "longitude": "27.430540"
+  },
+  "total": 16
+}, {
+  "id": "480",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "480",
+    "name": "Menderes",
+    "sef": "menderes",
+    "type": "place",
+    "slug": "menderes",
+    "latitude": "38.251744",
+    "longitude": "27.132668"
+  },
+  "total": 10
+}, {
+  "id": "459",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "459",
+    "name": "Aliağa",
+    "sef": "aliaga",
+    "type": "place",
+    "slug": "aliaga",
+    "latitude": "38.799561",
+    "longitude": "26.970740"
+  },
+  "total": 31
+}, {
+  "id": "461",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "461",
+    "name": "Bayındır",
+    "sef": "bayindir",
+    "type": "place",
+    "slug": "bayindir",
+    "latitude": "38.217482",
+    "longitude": "27.647949"
+  },
+  "total": 31
+}, {
+  "id": "482",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "482",
+    "name": "Narlıdere",
+    "sef": "narlidere",
+    "type": "place",
+    "slug": "narlidere",
+    "latitude": "38.377794",
+    "longitude": "26.997015"
+  },
+  "total": 31
+}, {
+  "id": "472",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "472",
+    "name": "Güzelbahçe",
+    "sef": "guzelbahce",
+    "type": "place",
+    "slug": "guzelbahce",
+    "latitude": "38.334926",
+    "longitude": "26.899592"
+  },
+  "total": 31
+}, {
+  "id": "485",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "485",
+    "name": "Selçuk",
+    "sef": "selcuk",
+    "type": "place",
+    "slug": "selcuk",
+    "latitude": "37.950845",
+    "longitude": "27.369954"
+  },
+  "total": 31
+}, {
+  "id": "483",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "483",
+    "name": "Ödemiş",
+    "sef": "odemis",
+    "type": "place",
+    "slug": "odemis",
+    "latitude": "38.228296",
+    "longitude": "27.974842"
+  },
+  "total": 31
+}, {
+  "id": "463",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "463",
+    "name": "Bergama",
+    "sef": "bergama",
+    "type": "place",
+    "slug": "bergama",
+    "latitude": "39.121449",
+    "longitude": "27.179913"
+  },
+  "total": 31
+}, {
+  "id": "469",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "469",
+    "name": "Dikili",
+    "sef": "dikili",
+    "type": "place",
+    "slug": "dikili",
+    "latitude": "39.074900",
+    "longitude": "26.889199"
+  },
+  "total": 31
+}, {
+  "id": "487",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "487",
+    "name": "Torbalı",
+    "sef": "torbali",
+    "type": "place",
+    "slug": "torbali",
+    "latitude": "38.155731",
+    "longitude": "27.364494"
+  },
+  "total": 31
+}, {
+  "id": "486",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "486",
+    "name": "Tire",
+    "sef": "tire",
+    "type": "place",
+    "slug": "tire",
+    "latitude": "38.089478",
+    "longitude": "27.731838"
+  },
+  "total": 31
+}, {
+  "id": "488",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "488",
+    "name": "Urla",
+    "sef": "urla",
+    "type": "place",
+    "slug": "urla",
+    "latitude": "38.324972",
+    "longitude": "26.766810"
+  },
+  "total": 31
+}, {
+  "id": "471",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "471",
+    "name": "Gaziemir",
+    "sef": "gaziemir",
+    "type": "place",
+    "slug": "gaziemir",
+    "latitude": "38.325150",
+    "longitude": "27.122520"
+  },
+  "total": 13
+}, {
+  "id": "738",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "738",
+    "name": "Atakum",
+    "sef": "atakum",
+    "type": "place",
+    "slug": "atakum",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 1
+}, {
+  "id": "64",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "64",
+    "name": "Çankaya",
+    "sef": "cankaya",
+    "type": "place",
+    "slug": "cankaya",
+    "latitude": "39.845184",
+    "longitude": "32.921227"
+  },
+  "total": 1
+}, {
+  "id": "479",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "479",
+    "name": "Konak",
+    "sef": "konak",
+    "type": "place",
+    "slug": "konak",
+    "latitude": "38.414480",
+    "longitude": "27.144123"
+  },
+  "total": 3
+}, {
+  "id": "741",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "741",
+    "name": "Canik",
+    "sef": "canik",
+    "type": "place",
+    "slug": "canik",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 1
+}, {
+  "id": "744",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "744",
+    "name": "İlkadım",
+    "sef": "ilkadim",
+    "type": "place",
+    "slug": "ilkadim",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 1
+}, {
+  "id": "748",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "748",
+    "name": "Tekkeköy",
+    "sef": "tekkekoy",
+    "type": "place",
+    "slug": "tekkekoy",
+    "latitude": "41.213269",
+    "longitude": "36.463127"
+  },
+  "total": 1
+}, {
+  "id": "742",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "742",
+    "name": "Çarşamba",
+    "sef": "carsamba",
+    "type": "place",
+    "slug": "carsamba",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 1
+}, {
+  "id": "82",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "82",
+    "name": "Yenimahalle",
+    "sef": "yenimahalle",
+    "type": "place",
+    "slug": "yenimahalle",
+    "latitude": "39.990429",
+    "longitude": "32.695547"
+  },
+  "total": 1
+}, {
+  "id": "80",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "80",
+    "name": "Sincan",
+    "sef": "sincan",
+    "type": "place",
+    "slug": "sincan",
+    "latitude": "39.966751",
+    "longitude": "32.584229"
+  },
+  "total": 1
+}, {
+  "id": "76",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "76",
+    "name": "Mamak",
+    "sef": "mamak",
+    "type": "place",
+    "slug": "mamak",
+    "latitude": "39.933364",
+    "longitude": "32.859742"
+  },
+  "total": 1
+}, {
+  "id": "466",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "466",
+    "name": "Buca",
+    "sef": "buca",
+    "type": "place",
+    "slug": "buca",
+    "latitude": "38.385479",
+    "longitude": "27.174709"
+  },
+  "total": 3
+}, {
+  "id": "475",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "475",
+    "name": "Karşıyaka",
+    "sef": "karsiyaka",
+    "type": "place",
+    "slug": "karsiyaka",
+    "latitude": "38.518400",
+    "longitude": "27.138240"
+  },
+  "total": 3
+}, {
+  "id": "468",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "468",
+    "name": "Çiğli",
+    "sef": "cigli",
+    "type": "place",
+    "slug": "cigli",
+    "latitude": "38.423734",
+    "longitude": "27.142826"
+  },
+  "total": 34
+}, {
+  "id": "74",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "74",
+    "name": "Keçiören",
+    "sef": "kecioren",
+    "type": "place",
+    "slug": "kecioren",
+    "latitude": "40.021062",
+    "longitude": "32.831015"
+  },
+  "total": 1
+}, {
+  "id": "67",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "67",
+    "name": "Etimesgut",
+    "sef": "etimesgut",
+    "type": "place",
+    "slug": "etimesgut",
+    "latitude": "39.931035",
+    "longitude": "32.650351"
+  },
+  "total": 1
+}, {
+  "id": "79",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "79",
+    "name": "Pursaklar",
+    "sef": "pursaklar",
+    "type": "place",
+    "slug": "pursaklar",
+    "latitude": "40.038463",
+    "longitude": "32.903356"
+  },
+  "total": 1
+}, {
+  "id": "69",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "69",
+    "name": "Gölbaşı",
+    "sef": "golbasi",
+    "type": "place",
+    "slug": "golbasi",
+    "latitude": "39.798293",
+    "longitude": "32.805752"
+  },
+  "total": 1
+}, {
+  "id": "1016",
+  "city": {
+    "id": "55",
+    "name": "Samsun",
+    "sef": "samsun",
+    "image": "samsun",
+    "order": "0",
+    "slug": "samsun",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/samsun.jpg"
+  },
+  "district": {
+    "id": "1016",
+    "name": "Samsun Çarşamba Havalimanı",
+    "sef": "samsun-carsamba-havalimani",
+    "type": "airport",
+    "slug": "samsun+carsamba+havalimani",
+    "latitude": "41.257763",
+    "longitude": "36.555172"
+  },
+  "total": 1
+}, {
+  "id": "980",
+  "city": {
+    "id": "6",
+    "name": "Ankara",
+    "sef": "ankara",
+    "image": "ankara",
+    "order": "0",
+    "slug": "ankara",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/ankara.jpg"
+  },
+  "district": {
+    "id": "980",
+    "name": "Ankara Esenboğa Havalimanı",
+    "sef": "ankara-esenboga-havalimani",
+    "type": "airport",
+    "slug": "ankara+esenboga+havalimani",
+    "latitude": "40.124440",
+    "longitude": "32.991673"
+  },
+  "total": 1
+}, {
+  "id": "1001",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "1001",
+    "name": "Adnan Menderes Havalimanı",
+    "sef": "adnan-menderes-havalimani",
+    "type": "airport",
+    "slug": "adnan+menderes+havalimani",
+    "latitude": "38.293763",
+    "longitude": "27.152029"
+  },
+  "total": 48
+}, {
+  "id": "1011",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "1011",
+    "name": "Milas-Bodrum Havalimanı",
+    "sef": "milas-bodrum-havalimani",
+    "type": "airport",
+    "slug": "milas+bodrum+havalimani",
+    "latitude": "37.248656",
+    "longitude": "27.663993"
+  },
+  "total": 16
+}, {
+  "id": "986",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "986",
+    "name": "Bursa Yenişehir Havalimanı",
+    "sef": "bursa-yenisehir-havalimani",
+    "type": "airport",
+    "slug": "bursa+yenisehir+havalimani",
+    "latitude": "40.254596",
+    "longitude": "29.556834"
+  },
+  "total": 172
+}, {
+  "id": "976",
+  "city": {
+    "id": "1",
+    "name": "Adana",
+    "sef": "adana",
+    "image": "adana",
+    "order": "0",
+    "slug": "adana",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/adana.jpg"
+  },
+  "district": {
+    "id": "976",
+    "name": "Adana Şakirpaşa Havalimanı",
+    "sef": "adana-sakirpasa-havalimani",
+    "type": "airport",
+    "slug": "adana+sakirpasa+havalimani",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 31
+}, {
+  "id": "90",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "90",
+    "name": "Gazipaşa",
+    "sef": "gazipasa",
+    "type": "place",
+    "slug": "gazipasa",
+    "latitude": "36.268562",
+    "longitude": "32.314304"
+  },
+  "total": 17
+}, {
+  "id": "100",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "100",
+    "name": "Muratpaşa",
+    "sef": "muratpasa",
+    "type": "place",
+    "slug": "muratpasa",
+    "latitude": "36.882759",
+    "longitude": "30.769476"
+  },
+  "total": 318
+}, {
+  "id": "94",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "94",
+    "name": "Kemer",
+    "sef": "kemer",
+    "type": "place",
+    "slug": "kemer",
+    "latitude": "36.602792",
+    "longitude": "30.559762"
+  },
+  "total": 14
+}, {
+  "id": "84",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "84",
+    "name": "Aksu",
+    "sef": "aksu",
+    "type": "place",
+    "slug": "aksu",
+    "latitude": "36.947597",
+    "longitude": "30.850176"
+  },
+  "total": 8
+}, {
+  "id": "101",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "101",
+    "name": "Serik",
+    "sef": "serik",
+    "type": "place",
+    "slug": "serik",
+    "latitude": "36.917399",
+    "longitude": "31.104447"
+  },
+  "total": 14
+}, {
+  "id": "85",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "85",
+    "name": "Alanya",
+    "sef": "alanya",
+    "type": "place",
+    "slug": "alanya",
+    "latitude": "36.544443",
+    "longitude": "31.995408"
+  },
+  "total": 14
+}, {
+  "id": "95",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "95",
+    "name": "Kepez",
+    "sef": "kepez",
+    "type": "place",
+    "slug": "kepez",
+    "latitude": "36.896891",
+    "longitude": "30.713323"
+  },
+  "total": 249
+}, {
+  "id": "96",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "96",
+    "name": "Konyaaltı",
+    "sef": "konyaalti",
+    "type": "place",
+    "slug": "konyaalti",
+    "latitude": "36.896891",
+    "longitude": "30.713323"
+  },
+  "total": 249
+}, {
+  "id": "35",
+  "city": {
+    "id": "3",
+    "name": "Afyonkarahisar",
+    "sef": "afyonkarahisar",
+    "image": "afyonkarahisar",
+    "order": "0",
+    "slug": "afyonkarahisar",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/afyonkarahisar.jpg"
+  },
+  "district": {
+    "id": "35",
+    "name": "İhsaniye",
+    "sef": "ihsaniye",
+    "type": "place",
+    "slug": "ihsaniye",
+    "latitude": "39.031881",
+    "longitude": "30.416788"
+  },
+  "total": 6
+}, {
+  "id": "981",
+  "city": {
+    "id": "7",
+    "name": "Antalya",
+    "sef": "antalya",
+    "image": "antalya",
+    "order": "0",
+    "slug": "antalya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/antalya.jpg"
+  },
+  "district": {
+    "id": "981",
+    "name": "Antalya Havalimanı",
+    "sef": "antalya-havalimani",
+    "type": "airport",
+    "slug": "antalya+havalimani",
+    "latitude": "36.904333",
+    "longitude": "30.801877"
+  },
+  "total": 69
+}, {
+  "id": "36",
+  "city": {
+    "id": "3",
+    "name": "Afyonkarahisar",
+    "sef": "afyonkarahisar",
+    "image": "afyonkarahisar",
+    "order": "0",
+    "slug": "afyonkarahisar",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/afyonkarahisar.jpg"
+  },
+  "district": {
+    "id": "36",
+    "name": "İscehisar",
+    "sef": "iscehisar",
+    "type": "place",
+    "slug": "iscehisar",
+    "latitude": "38.861286",
+    "longitude": "30.749196"
+  },
+  "total": 6
+}, {
+  "id": "42",
+  "city": {
+    "id": "3",
+    "name": "Afyonkarahisar",
+    "sef": "afyonkarahisar",
+    "image": "afyonkarahisar",
+    "order": "0",
+    "slug": "afyonkarahisar",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/afyonkarahisar.jpg"
+  },
+  "district": {
+    "id": "42",
+    "name": "Şuhut",
+    "sef": "suhut",
+    "type": "place",
+    "slug": "suhut",
+    "latitude": "38.532897",
+    "longitude": "30.544417"
+  },
+  "total": 6
+}, {
+  "id": "40",
+  "city": {
+    "id": "3",
+    "name": "Afyonkarahisar",
+    "sef": "afyonkarahisar",
+    "image": "afyonkarahisar",
+    "order": "0",
+    "slug": "afyonkarahisar",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/afyonkarahisar.jpg"
+  },
+  "district": {
+    "id": "40",
+    "name": "Sinanpaşa",
+    "sef": "sinanpasa",
+    "type": "place",
+    "slug": "sinanpasa",
+    "latitude": "38.742188",
+    "longitude": "30.244810"
+  },
+  "total": 6
+}, {
+  "id": "662",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "662",
+    "name": "Menteşe",
+    "sef": "mentese",
+    "type": "place",
+    "slug": "mentese",
+    "latitude": "37.421350",
+    "longitude": "28.432157"
+  },
+  "total": 7
+}, {
+  "id": "666",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "666",
+    "name": "Ula",
+    "sef": "ula",
+    "type": "place",
+    "slug": "ula",
+    "latitude": "37.102153",
+    "longitude": "28.417756"
+  },
+  "total": 7
+}, {
+  "id": "667",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "667",
+    "name": "Yatağan",
+    "sef": "yatagan",
+    "type": "place",
+    "slug": "yatagan",
+    "latitude": "37.340253",
+    "longitude": "28.140032"
+  },
+  "total": 7
+}, {
+  "id": "1012",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "1012",
+    "name": "Dalaman Havalimanı",
+    "sef": "dalaman-havalimani",
+    "type": "airport",
+    "slug": "dalaman+havalimani",
+    "latitude": "36.718131",
+    "longitude": "28.793317"
+  },
+  "total": 7
+}, {
+  "id": "656",
+  "city": {
+    "id": "48",
+    "name": "Muğla",
+    "sef": "mugla",
+    "image": "mugla",
+    "order": "0",
+    "slug": "mugla",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/mugla.jpg"
+  },
+  "district": {
+    "id": "656",
+    "name": "Dalaman",
+    "sef": "dalaman",
+    "type": "place",
+    "slug": "dalaman",
+    "latitude": "36.766620",
+    "longitude": "28.799991"
+  },
+  "total": 7
+}, {
+  "id": "465",
+  "city": {
+    "id": "35",
+    "name": "İzmir",
+    "sef": "izmir",
+    "image": "izmir",
+    "order": "0",
+    "slug": "izmir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/izmir.jpg"
+  },
+  "district": {
+    "id": "465",
+    "name": "Bornova",
+    "sef": "bornova",
+    "type": "place",
+    "slug": "bornova",
+    "latitude": "38.462655",
+    "longitude": "27.244096"
+  },
+  "total": 31
+}, {
+  "id": "555",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "555",
+    "name": "İzmit",
+    "sef": "izmit",
+    "type": "place",
+    "slug": "izmit",
+    "latitude": "40.770276",
+    "longitude": "29.987535"
+  },
+  "total": 5
+}, {
+  "id": "554",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "554",
+    "name": "Gölcük",
+    "sef": "golcuk",
+    "type": "place",
+    "slug": "golcuk",
+    "latitude": "40.716752",
+    "longitude": "29.819488"
+  },
+  "total": 5
+}, {
+  "id": "720",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "720",
+    "name": "Akyazı",
+    "sef": "akyazi",
+    "type": "place",
+    "slug": "akyazi",
+    "latitude": "40.683486",
+    "longitude": "30.624934"
+  },
+  "total": 4
+}, {
+  "id": "724",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "724",
+    "name": "Geyve",
+    "sef": "geyve",
+    "type": "place",
+    "slug": "geyve",
+    "latitude": "40.508635",
+    "longitude": "30.290266"
+  },
+  "total": 4
+}, {
+  "id": "725",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "725",
+    "name": "Hendek",
+    "sef": "hendek",
+    "type": "place",
+    "slug": "hendek",
+    "latitude": "40.795053",
+    "longitude": "30.744706"
+  },
+  "total": 4
+}, {
+  "id": "727",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "727",
+    "name": "Karasu",
+    "sef": "karasu",
+    "type": "place",
+    "slug": "karasu",
+    "latitude": "41.095615",
+    "longitude": "30.692356"
+  },
+  "total": 4
+}, {
+  "id": "728",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "728",
+    "name": "Kaynarca",
+    "sef": "kaynarca",
+    "type": "place",
+    "slug": "kaynarca",
+    "latitude": "41.033300",
+    "longitude": "30.307700"
+  },
+  "total": 4
+}, {
+  "id": "729",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "729",
+    "name": "Kocaali",
+    "sef": "kocaali",
+    "type": "place",
+    "slug": "kocaali",
+    "latitude": "41.055500",
+    "longitude": "30.850900"
+  },
+  "total": 4
+}, {
+  "id": "730",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "730",
+    "name": "Pamukova",
+    "sef": "pamukova",
+    "type": "place",
+    "slug": "pamukova",
+    "latitude": "40.505684",
+    "longitude": "30.169240"
+  },
+  "total": 4
+}, {
+  "id": "731",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "731",
+    "name": "Sapanca",
+    "sef": "sapanca",
+    "type": "place",
+    "slug": "sapanca",
+    "latitude": "40.689680",
+    "longitude": "30.261428"
+  },
+  "total": 4
+}, {
+  "id": "732",
+  "city": {
+    "id": "54",
+    "name": "Sakarya",
+    "sef": "sakarya",
+    "image": "sakarya",
+    "order": "0",
+    "slug": "sakarya",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/sakarya.jpg"
+  },
+  "district": {
+    "id": "732",
+    "name": "Serdivan",
+    "sef": "serdivan",
+    "type": "place",
+    "slug": "serdivan",
+    "latitude": "40.773074",
+    "longitude": "30.394817"
+  },
+  "total": 4
+}, {
+  "id": "549",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "549",
+    "name": "Çayırova",
+    "sef": "cayirova",
+    "type": "place",
+    "slug": "cayirova",
+    "latitude": "40.824215",
+    "longitude": "29.372234"
+  },
+  "total": 2
+}, {
+  "id": "550",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "550",
+    "name": "Darıca",
+    "sef": "darica",
+    "type": "place",
+    "slug": "darica",
+    "latitude": "40.773863",
+    "longitude": "29.400298"
+  },
+  "total": 2
+}, {
+  "id": "552",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "552",
+    "name": "Dilovası",
+    "sef": "dilovasi",
+    "type": "place",
+    "slug": "dilovasi",
+    "latitude": "40.787622",
+    "longitude": "29.544158"
+  },
+  "total": 2
+}, {
+  "id": "556",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "556",
+    "name": "Kandıra",
+    "sef": "kandira",
+    "type": "place",
+    "slug": "kandira",
+    "latitude": "41.070363",
+    "longitude": "30.152394"
+  },
+  "total": 5
+}, {
+  "id": "558",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "558",
+    "name": "Kartepe",
+    "sef": "kartepe",
+    "type": "place",
+    "slug": "kartepe",
+    "latitude": "40.753369",
+    "longitude": "30.023216"
+  },
+  "total": 5
+}, {
+  "id": "557",
+  "city": {
+    "id": "41",
+    "name": "Kocaeli",
+    "sef": "kocaeli",
+    "image": "kocaeli",
+    "order": "0",
+    "slug": "kocaeli",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/kocaeli.jpg"
+  },
+  "district": {
+    "id": "557",
+    "name": "Karamürsel",
+    "sef": "karamursel",
+    "type": "place",
+    "slug": "karamursel",
+    "latitude": "40.691274",
+    "longitude": "29.616418"
+  },
+  "total": 5
+}, {
+  "id": "1030",
+  "city": {
+    "id": "3",
+    "name": "Afyonkarahisar",
+    "sef": "afyonkarahisar",
+    "image": "afyonkarahisar",
+    "order": "0",
+    "slug": "afyonkarahisar",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/afyonkarahisar.jpg"
+  },
+  "district": {
+    "id": "1030",
+    "name": "Zafer Havalimanı",
+    "sef": "zafer-havalimani",
+    "type": "airport",
+    "slug": "zafer+havalimani",
+    "latitude": "38.756885",
+    "longitude": "30.538704"
+  },
+  "total": 6
+}, {
+  "id": "280",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "280",
+    "name": "Yenişehir",
+    "sef": "yenisehir",
+    "type": "place",
+    "slug": "yenisehir",
+    "latitude": "37.924973",
+    "longitude": "40.210983"
+  },
+  "total": 15
+}, {
+  "id": "274",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "274",
+    "name": "Kayapınar",
+    "sef": "kayapinar",
+    "type": "place",
+    "slug": "kayapinar",
+    "latitude": "37.924973",
+    "longitude": "40.210983"
+  },
+  "total": 15
+}, {
+  "id": "279",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "279",
+    "name": "Sur",
+    "sef": "sur",
+    "type": "place",
+    "slug": "sur",
+    "latitude": "37.924973",
+    "longitude": "40.210983"
+  },
+  "total": 15
+}, {
+  "id": "264",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "264",
+    "name": "Bağlar",
+    "sef": "baglar",
+    "type": "place",
+    "slug": "baglar",
+    "latitude": "37.924973",
+    "longitude": "40.210983"
+  },
+  "total": 15
+}, {
+  "id": "265",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "265",
+    "name": "Bismil",
+    "sef": "bismil",
+    "type": "place",
+    "slug": "bismil",
+    "latitude": "37.850055",
+    "longitude": "40.668688"
+  },
+  "total": 15
+}, {
+  "id": "271",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "271",
+    "name": "Ergani",
+    "sef": "ergani",
+    "type": "place",
+    "slug": "ergani",
+    "latitude": null,
+    "longitude": null
+  },
+  "total": 15
+}, {
+  "id": "990",
+  "city": {
+    "id": "21",
+    "name": "Diyarbakır",
+    "sef": "diyarbakir",
+    "image": "diyarbakir",
+    "order": "0",
+    "slug": "diyarbakir",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/diyarbakir.jpg"
+  },
+  "district": {
+    "id": "990",
+    "name": "Diyarbakır Havalimanı",
+    "sef": "diyarbakir-havalimani",
+    "type": "airport",
+    "slug": "diyarbakir+havalimani",
+    "latitude": "37.900488",
+    "longitude": "40.184131"
+  },
+  "total": 15
+}, {
+  "id": "199",
+  "city": {
+    "id": "16",
+    "name": "Bursa",
+    "sef": "bursa",
+    "image": "bursa",
+    "order": "0",
+    "slug": "bursa",
+    "country_code": "TR",
+    "city_image": "https://s3-eu-west-1.amazonaws.com/gaaraj/places/bursa.jpg"
+  },
+  "district": {
+    "id": "199",
+    "name": "Mudanya",
+    "sef": "mudanya",
+    "type": "place",
+    "slug": "mudanya",
+    "latitude": "40.376973",
+    "longitude": "28.883246"
+  },
+  "total": 172
+}]
