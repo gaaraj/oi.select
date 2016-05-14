@@ -62,7 +62,6 @@ angular.module('oi.select')
         }
       }
       output = output2.concat(output3);
-      console.info(output);
 
       if (options && (options === true || options.all)) {
         inputLabel: for (i = 0; i < input.length; i++) {
