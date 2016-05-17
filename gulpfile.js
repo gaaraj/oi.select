@@ -81,6 +81,10 @@ gulp.task('watch', function() {
     gulp.watch(path.join(paths.src, '**/*.styl'), ['compileStyles']);
 });
 
+gulp.task('watch:serve', function() {
+    gulp.watch(path.join(paths.src, '**/*.js'), ['compileScripts']);
+});
+
 // gulp.task('test', function(done) {
 //     new KarmaServer({
 //         configFile: path.join(paths.root, 'karma.conf.js')
@@ -88,5 +92,6 @@ gulp.task('watch', function() {
 // });
 
 gulp.task('build', ['clean', 'compileScripts', 'compileStyles']);
+gulp.task('serve', ['webserver', 'watch:serve']);
 gulp.task('default', ['webserver', 'watch']);
 
